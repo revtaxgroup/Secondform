@@ -23,6 +23,21 @@ function sendMail() {
 
     })
     .catch(err=>console.log(err));
+  
+  const serviceID1 = "service_fy4vt0a";
+  const templateID1 = "template_927nkin";
+    emailjs.send(serviceID1, templateID1, params)
+    .then(res=>{
+        document.getElementById("name").value = "";
+        document.getElementById("phone").value = "";
+        document.getElementById("checkedValue").value,
+        document.getElementById("checkedValue1").value,
+        document.getElementById("checkedValue2").value,
+        console.log(res);
+        alert("Your message sent successfully!!")
+
+    })
+    .catch(err=>console.log(err));
 
 }
 
