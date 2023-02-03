@@ -2,6 +2,7 @@ function sendMail() {
   var params = {
     name: document.getElementById("name").value,
     phone: document.getElementById("phone").value,
+    email: document.getElementById("email").value,
     checkedValue:document.getElementById("checkedValue").value,
     checkedValue1:document.getElementById("checkedValue1").value,
     checkedValue2:document.getElementById("checkedValue2").value,
@@ -15,6 +16,7 @@ function sendMail() {
     .then(res=>{
         document.getElementById("name").value = "";
         document.getElementById("phone").value = "";
+        document.getElementById("email").value = "";
         document.getElementById("checkedValue").value,
         document.getElementById("checkedValue1").value,
         document.getElementById("checkedValue2").value,
@@ -30,6 +32,7 @@ function sendMail() {
     .then(res=>{
         document.getElementById("name").value = "";
         document.getElementById("phone").value = "";
+        document.getElementById("email").value = "";
         document.getElementById("checkedValue").value,
         document.getElementById("checkedValue1").value,
         document.getElementById("checkedValue2").value,
@@ -45,6 +48,7 @@ function sendMail() {
     .then(res=>{
         document.getElementById("name").value = "";
         document.getElementById("phone").value = "";
+        document.getElementById("email").value = "";
         document.getElementById("checkedValue").value,
         document.getElementById("checkedValue1").value,
         document.getElementById("checkedValue2").value,
@@ -59,6 +63,7 @@ function sendMail() {
     .then(res=>{
         document.getElementById("name").value = "";
         document.getElementById("phone").value = "";
+        document.getElementById("email").value = "";
         document.getElementById("checkedValue").value,
         document.getElementById("checkedValue1").value,
         document.getElementById("checkedValue2").value,
